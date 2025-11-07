@@ -1,0 +1,6 @@
+/target
+/testfiles
+*.png
+Cargo.lock
+.idea/
+.zed/
