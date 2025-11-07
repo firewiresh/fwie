@@ -36,11 +36,11 @@ Will decode all information in the `bees.png` image into `bee-movie-script.txt`
 
 ## Features
 - Compression: GZ compression provided by the flate2 crate allows for a very noticable size reduction in encoded image files. You likely will not have a reduction in file size compared to the original, but without it encoded images like to be rather large.
-- Error correction: There is a fair bit of error correcction built in through the use of reed solomon error correction as well, as some trickery with how pixel values are read in during decoding.
+- Error correction: There is a fair bit of error correction built in through the use of reed solomon error correction, as well as some trickery with how pixel values are read in during decoding.
 - Data input: Theoretically any type of file can be read in, I've managed to encode everything from the bee movie script and simple a "hello" in a txt file to large multi-gigabyte 3d scans (probably best not to ask)
 
 ## License
 This project is licensed under GNU GPLv3. See the LICENSE file for more details.
 
 ## Contributions
-All contributions are welcome. Feel free to open issue or submit pull requests if you find any bugs or have any suggestions.
+All contributions are welcome. Feel free to open an issue or submit a pull request if you find any bugs or have any suggestions.
